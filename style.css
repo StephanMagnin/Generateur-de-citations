@@ -1,0 +1,79 @@
+body {
+  height: 100vh;
+  background-image: url(./images/bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+/* Style global */
+.container {
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#title {
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+  font-size: 49px;
+  background-color: #f1f1f1;
+  color: #000;
+}
+
+#simpson {
+  background-color: #000;
+  color: #f1f1f1;
+}
+
+.container-2 {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  text-align: center;
+  color: #f1f1f1;
+}
+
+/* Style Button */
+#btn {
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+  position: relative;
+  color: #f1f1f1;
+  font-weight: 700;
+  font-size: 15px;
+  background-color: #222;
+  padding: 17px 60px;
+  border-radius: 8px;
+  box-shadow: 12px 12px 12px #000;
+  outline: none;
+}
+
+/* Style des select */
+#type-generateur, #type-number {
+  margin: 5px;
+  border: none;
+  text-transform: uppercase;
+  position: relative;
+  color: #000;
+  font-weight: 600;
+  font-size: 12px;
+  font-family: 'Oswald', sans-serif;
+  padding: 3px;
+  border-radius: 8px;
+  outline: none;
+  box-shadow: 12px 12px 12px #000;
+}
+
+.espacement {
+  margin: 2rem;
+}
