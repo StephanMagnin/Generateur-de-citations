@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="./style.css">
+  <script src="./app.js" defer></script>
+  <title>Générateur de citations</title>
+</head>
+
+<body>
+  <!-- Contient un titre et un boutton -->
+  <div class="container">
+    <h1 id="title">Générateur de cita<span id="simpson">tions les Simpson</span></h1>
+    <button id="btn"><span> Ouh pinaise </span></button>
+  </div>
+
+  <!-- Permet de choisir le type de personnage -->
+  <div class="container-2">
+    <select name="personnage" id="type-generateur">
+      <option value="1">Homer Simpson</option>
+      <option value="2">Bart Simpson</option>
+    </select>
+
+  <!-- Permet de choisir le nombre de citations -->
+    <select name="num" id="type-number">
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5</option>
+  </select>
+</div>
+  <div class="container-citations">
+    <div id="citations"></div>
+  </div>
+</body>
+</html>
